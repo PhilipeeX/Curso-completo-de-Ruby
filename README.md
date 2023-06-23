@@ -1,4 +1,4 @@
-# Curso-completo-de-Ruby
+## Curso-completo-de-Ruby
 À medida que avança, o curso se aprofunda nos tópicos mais avançados do Ruby, como manipulação de strings, manipulação de arquivos, exceções, uso de bibliotecas e frameworks populares, como Ruby on Rails. Você também terá a oportunidade de criar projetos práticos, aplicando seus conhecimentos em situações do mundo real.
 
 Além disso, o curso oferece uma abordagem prática, com exercícios e projetos que permitem que você coloque em prática o que aprendeu. Isso ajudará a consolidar seus conhecimentos e desenvolver suas habilidades de resolução de problemas.
