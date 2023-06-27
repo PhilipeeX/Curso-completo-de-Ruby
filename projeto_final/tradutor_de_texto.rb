@@ -1,18 +1,10 @@
-require 'uri'
-require 'net/http'
+require 'google/cloud/translate'
 
-url = URI("https://translated-mymemory---translation-memory.p.rapidapi.com/get?langpair=en%7Cit&q=Hello%20World!&mt=1&onlyprivate=0&de=a%40b.c")
+translation_client = Google::Cloud::Translate.translation_service
 
-http = Net::HTTP.new(url.host, url.port)
-http.use_ssl = true
-
-request = Net::HTTP::Get.new(url)
-request["X-RapidAPI-Key"] = 'dc78ce3290mshb281822fe0f8f59p1ad00ajsnac8092d0855f'
-request["X-RapidAPI-Host"] = 'translated-mymemory---translation-memory.p.rapidapi.com'
-
-response = http.request(request)
-puts 'Digite o texto que você deseja traduzir:'
-texto_original = gets.chomp
-
-request = Net::HTTP::Post.new()
-
+result = translation_client.translate_text contents: ["Hello, world!"],
+                                           mime_type: "text/plain",
+                                           source_language_code: "en-US",
+                                           target_language_code: "ja-JP",
+                                           parent: "projects/my-project-name"
+puts result.translations.first.translated_text
