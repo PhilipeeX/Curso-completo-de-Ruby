@@ -1,17 +1,20 @@
 require "google/cloud/translate"
 
-# Inicialize o cliente usando a chave de API
-client = Google::Cloud::Translate.translation_service(credentials: "____INSIRA_A_API_AQUI")
+def translate_text(text, target_language)
+  project_id = "chrome-entropy-391113"
+  credentials_path = "./chrome-entropy-391113-3524831a9f58.json"
 
-texto_original = "Hello, world!"
+  translate = Google::Cloud::Translate.translation_v2_service project_id: project_id, credentials: credentials_path
+  translation = translate.translate text, to: target_language
 
-# Traduza o texto para um idioma específico
-traducao = client.translate_text(
-  parent: "projects/chrome-entropy-391113/locations/global",
-  contents: [texto_original],
-  target_language_code: "pt"
-)
+  puts "Texto original: #{text}"
+  puts "Tradução: #{translation.text}"
+rescue => e
+  puts "Ocorreu um erro na tradução: #{e.message}"
+end
 
-# Exiba o resultado
-puts "Texto original: #{texto_original}"
-puts "Tradução para o português: #{traducao.translations[0].translated_text}"
+# Exemplo de uso
+text = "hello, world"
+target_language = "pt"  # Código do idioma de destino, nesse caso "pt" para Português
+
+translate_text(text, target_language)
