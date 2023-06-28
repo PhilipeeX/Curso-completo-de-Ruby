@@ -18,6 +18,7 @@ class MyTextTranslate
       arquivo.puts "#{text_one} => #{language} => #{second_text}"
     end
   end
+
   def self.user_iteraction
     puts 'Digite o texto que deseja traduzir:'
     text = gets.chomp
