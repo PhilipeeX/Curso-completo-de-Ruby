@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "chrome-entropy-391113",
+  "private_key_id": "3524831a9f58905416b734f62fd53ee897243ee5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCn2AwZY8yiNSQT\nLn22RvOR3z9vuzzWGQffRv9o96ki0YuiCTtBPQWrYVW3bdib+tgEb3W+DwcWo4zj\nrd56zsWO3sobOx8TjIVpljoOJ08gusT8+IQOmZsGpgWPaqHaVd6PPaHtpYfAw43b\nw/KRmZfrEGEEN2U4j2taTdLV7WpnxBUquORbR2h2baeYz+/9QxReKVXdgVOz3u17\nzx+rzPTDZxf/cKh0q/bb2iEI1U/i73ycko1M666AJdaqsesnbqQjhtMXssFtNjeL\nkMj2B/6bpqxaMLCniMQC9YOBtClXCSHx6CwYFuS99HGRJTnTcIIj0vsbOzqfncXR\nsGaSqOgLAgMBAAECggEAQ407/WIBw40AummdNeXjdOO1i9n/V6nWVcIk3JHEtFtC\nyBHQE+cj54Byt7MRmWGBXHOhnz88GpvzgdUB9EpRD7nR/Ni0HrGRJlhMgFLI0YLp\n8mhw+dFPqALcvQZtIsspmlvzVoqnEumBqB/6eignkPdUHJbQ+c0bJ0qoHuqBR0Zo\nP4LvOmkAleOFRNOc+rJC36HYYn4VbYPApOCkehJrn8hqXGqBu/p4j0FDbHLo69zE\nv29gMAkxM8hcXBAdOlGQxVO6AqcmVGFU1FPQagsE88z2hph4wLa12dC7eSZGdyAc\ni58wOCucGv6cMH4TVp6PjJ7SYPrPKg4r2/yIVsQZKQKBgQDYOAZ92Ll+5VMU4cxU\n+Gxhzeno9ClslFP4GRQMLBW1kQTUKIa7cjzzIs3MijLpKV21fX/2W7qElCA8S/pj\nxmgm2RThSgqpS7cWCvMQ/Jp6SzoJNAF4DualPx4CoeiPW2UD/0pDAs69RH1T9X/W\n8qorltn8PToknB3KnP4zyWHcUwKBgQDGuYxpDKwxpEfzPRkk6Ijmylarko5d2xed\nk+gDuaZLSvo76WKEPNNRGT89NXclBmRxHPcd4BAUctPMG2xe4M56PA08YeYGot2v\njBxpz8Rh0Tuxj7konnY8UryXgQSDmlE9N4i6wncuF7pLzQQSKg7VHqjxl4PzPqDK\nusoye4MOaQKBgBNM3Pd60wQKwGHKzgx/qF0KnmiW8uOoUd6BjpKPlNiCO2Ycv/oX\ndm1Vm/04ENdTQ/QhYbzB72JKPp5jQdSKL13YXs7FZzI5efxTueK4SanE8UdFBySK\nX/g8LBecEEBLrjavIRfeNkoaxP0rmt+7BYmii47CgGAoN1iQrvg8b6nVAoGAancn\n8XPXoPTZk0gte2eVSMgobN0kpsXlPgfqqmxA2l+99nEP1bbco7s59Sn6vfxRvYP+\nJKRRGRN3wwcCJUadeEFJ+gqc+Psyd4VCB7JHDPzS1UshsNBMmf7diPGXIIaBdaGW\nADCFN02BAnFA+BZOQgGeE2jQSXZJILO39hnT2dkCgYAUA98H6BHv+sj2xehcBnF2\nYuOz5vhWkHGJTPNaG3NK8eZssRU6ezICWbZ7SSOlGlU9JWgFdhcgUE4+19H63MV4\ndBx8WmEvkq3FLjBDGd66DJZMvX7KtrO8ZbbYxWf8BVuEx5LC9R+e6zoLEh9A02+b\nauIXWLi5tNrAY7/OPuSjhA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "primeiroteste@chrome-entropy-391113.iam.gserviceaccount.com",
+  "client_id": "118004198649252332884",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/primeiroteste%40chrome-entropy-391113.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
