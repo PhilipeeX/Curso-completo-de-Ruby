@@ -2,19 +2,25 @@ require "google/cloud/translate"
 
 def translate_text(text, target_language)
   project_id = "chrome-entropy-391113"
-  credentials_path = "./chrome-entropy-391113-3524831a9f58.json"
+  credentials_path = "./chrome-entropy-391113-45171ce5e425.json"
 
   translate = Google::Cloud::Translate.translation_v2_service project_id: project_id, credentials: credentials_path
   translation = translate.translate text, to: target_language
-
-  puts "Texto original: #{text}"
-  puts "Tradução: #{translation.text}"
+  translation.text
 rescue => e
   puts "Ocorreu um erro na tradução: #{e.message}"
 end
 
-# Exemplo de uso
-text = "hello, world"
-target_language = "pt"  # Código do idioma de destino, nesse caso "pt" para Português
+denovo = 'sim'
+while denovo == 'sim'
+  puts 'Digite o texto que deseja traduzir:'
+  text = gets.chomp
+  puts 'Digite a linguagem que o texto será traduzido, ex: Inglês: "en" Espanhol: "es" Francês: "fr" Alemão: "de" Italiano: "it", veja mais em https://cloud.google.com/translate/docs/languages'
+  target_language = gets.chomp
 
-translate_text(text, target_language)
+  puts translate_text(text, target_language)
+  puts 'Deseja fazer outra tradução? digite["sim" ou "nao"]'
+  denovo = gets.chomp
+end
+
+
